@@ -1,0 +1,173 @@
+
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Simple web Development Template
+	</title>
+	<link rel="stylesheet" type="text/css" 
+	href="C:\Users\HP\Desktop\Website\webprograming\web_css1.css">
+	<link rel="stylesheet" href="C:\Users\HP\Desktop\Website\webprograming\web2.css">
+</head>
+
+<body>
+	<script>
+		function myfun(){
+          alert("sucessfully purchased");
+		}
+
+		
+	</script>
+	<p id="demo"></p>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="C:\Users\HP\Desktop\IMAGE\images1.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+			<li ><a href="#About">About</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<a href="https://www.w3schools.com/"><button class="btn btn-sm">Search</button></a>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					Web Technology
+				</h1>
+				
+				<p class="text-small">
+					<ul type="circle">
+					<li>HTML stands for HyperText Markup Language.</li>
+					<li> It is used to design web pages using a markup language.
+					HTML is the combination of Hypertext and Markup language. </li>
+
+					<li>Hypertext defines the link between the web pages.
+					A markup language is used to define the text document within 
+					tag which defines the structure of web pages.</li>
+					<li> HTML is a markup language that is used by the browser to 
+					manipulate text, images, and other content to display it in the 
+					required format.</li>
+					<center><a class="more" href="https://www.w3schools.com/html/"> More </a></center>
+
+				</p>
+
+
+			</div>
+			<div class="thumbnail">
+			<img src="C:\Users\HP\Desktop\IMAGE\image3.jpg" alt="laptop image">
+		</div>
+		</div>,
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					<ul type="square">
+						<li>C is a procedural programming language.</li>
+					<li>It was initially developed by Dennis Ritchie as a system programming 
+					language to write operating system. </li>
+				   <li>The main features of C language include low-level access to memory,
+					simple set of keywords, and clean style, these features make C language
+					suitable for system programming like operating system or compiler development.
+				        </li><br>
+					<center><a class="more" href="https://www.w3schools.com/c/index.php">More</a></center>
+
+				</p>
+			</div>
+			<div class="thumbnail">
+			<img src="C:\Users\HP\Desktop\IMAGE\image5.jpg" alt="laptop image">
+		</div>
+
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				<ul type="disc">
+				<li>Java has been one of the most popular programming language 
+				for many years.Java is Object Oriented.</li>
+				 
+				<li> However it is notconsidered as pure object oriented as it provides                                       
+				support for primitive data types (like int, char, etc).
+				The Java codes are first compiled into byte code (machine independent code). 
+				Then the byte code is run on Java Virtual Machine (JVM) regardless of the
+				underlying architecture.</li><br>
+				<center><a class="more" href="https://www.w3schools.com/java/default.asp">More</a></center>
+				
+
+			</p>
+
+		</div>
+
+		<div class="thumbnail">
+			<img src="C:\Users\HP\Desktop\IMAGE\Java-image.jpg" alt="laptop image">
+		</div>
+	</section>
+
+	
+    <div class="header">
+       <marquee direction="left" behavior="alternate" scrollamount="20">
+        <h1>Welcome to Our E-Commerce Store</h1></marquee>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <img src="C:\Users\HP\Desktop\IMAGE\image4.png" 
+            alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Description of Product 1.</p>
+            <p class="price">$20.99</p><br>
+            <button onclick="myfun()">Buy</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\HP\Desktop\IMAGE\image2.jpg" 
+            alt="Product 2" style="height: 300px;">
+            <h2>Product 2</h2>
+            <p>Description of Product 2.</p>
+            <p class="price">$25.99</p><br>
+            <button onclick="myfun()">Buy</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\HP\Desktop\IMAGE\java.jpg" alt="Product 3"
+			 style="height: 300px;">
+            <h2>Product 3</h2>
+            <p>Description of Product 3.</p>
+            <p class="price">$30.99</p><br>
+            <button onclick="myfun()">Buy</button>
+        </div>
+
+       
+    </div>
+
+    <div class="popup animated">
+        <h3>Special Offer!</h3>
+        <p>Get 10% off your first purchase.</p>
+    </div>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+ 
+ 
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>create login page</title>
+        <link rel="stylesheet" type="text/css" 
+	href="C:\Users\HP\Desktop\Website\webprograming\web_css1.css">
+	     <link rel="stylesheet" href="C:\Users\HP\Desktop\Website\webprograming\web2.css">
+    <script>
+        function validform(){
+			var email=document.getElementById("email").value;
+			var password=document.getElementById("password").value;
+
+			// check if both email and password are empty
+			if(email.trim()=="" || password.trim()==""){
+				alert("please enter boyh email and password");
+			}
+		}
+    </script>
+    </head>
+    <body>
+    <center>
+    <div class="container">
+        <div class="signup-form">
+            <h2>Sign Up for Exclusive Offers</h2>
+            <input type="email" id= "email" placeholder="Email">
+            <input type="password" placeholder="password" id="password" maxlength="8">
+            <button onclick="validform()">Sign Up</button>
+            <a href="C:\Users\HP\Desktop\Website\webprograming\demo[1].html"><button>Join us </button></a>
+        </div>
+    </div>
+    </center>
+    </body>
+</html>
